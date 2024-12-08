@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: rgba(130, 246, 91, 0.674);
+    margin: 0; /* Remove default body margin */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(10, 216, 147);
+    font-size: 100px;
+    height: 20%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    height: 70%;
+    flex-grow: 1;
+}
+
+.containerinfo {
+    display: flex;
+    flex-direction: column; /* Stack .info elements vertically */
+    flex-grow: 1;
+    width: 100%; /* Ensure container takes full width */
+}
+.pictures{
+    size: 500px ;
+    border: 2px solid black;
+}
+.info {
+    width: 100%; /* Ensure .info elements take full width */
+    background-color: rgb(135, 235, 252);
+    display: flex; /* Ensure flex properties work */
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    margin: 1%;
+    border-radius: 10px;
+    padding: 1%;
+    box-sizing: border-box; /* Include padding and border in element's total size */
+    border: 2px solid black; /* Adjusted border width to a more typical value */
+}
+
+article, nav {
+    flex: 1;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+article {
+    background-color: rgb(19, 216, 157);
+    flex: 100%;
+}
+
+
+footer {
+    background-color: rgb(77, 238, 169);
+    height: 10%;
+    border-top: 2px solid black;
+}
+b{
+    font-size:xx-large;
+}
